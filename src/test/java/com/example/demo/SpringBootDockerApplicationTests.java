@@ -12,7 +12,7 @@ class SpringBootDockerApplicationTests {
 
 	@Test
 	void contextLoads() {
-		log.debug("Hy this is running from test case centextLoads");
+		log.info("Hy this is running from test case context Loads");
 	}
 
 }
