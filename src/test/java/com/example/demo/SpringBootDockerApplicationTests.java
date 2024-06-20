@@ -11,7 +11,7 @@ class SpringBootDockerApplicationTests {
 	private static final Logger log = LoggerFactory.getLogger(SpringBootDockerApplicationTests.class);
 
 	@Test
-	void contextLoads() {
+	 contextLoads() {
 		log.info("Hy this is running from test case context Loads");
 	}
 
