@@ -15,6 +15,7 @@ public class SpringBootDockerApplication {
 
 	@GetMapping("/message")
 	public String helloMessage(){
+		System.out.print("This is demo branch");
 		return "Hello, This is Spring boot Application";
 	}
 }
